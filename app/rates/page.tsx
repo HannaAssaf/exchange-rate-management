@@ -20,8 +20,8 @@ export default function RatesPage() {
     useCurrencyStore();
   const filteredRates = useMemo(() => {
     return rates
-      .filter(([key]) => key !== baseCurrency && key.toLowerCase().includes(filter.toLowerCase()))
-      .map(([key, value]) => ({ key, value: Number(1 / value).toFixed(2) }));
+      .filter(([key]) => key !== baseCurrency && key.toLowerCase().includes(filter))
+      .map(([key, value]) => ({ key, value: (1 / value).toFixed(2) }));
   }, [baseCurrency, filter, rates]);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function RatesPage() {
             bottom
             title={
               <Wave
-                text={`$ $ $ Current exchange rate for 1 ${'UAH'} $ $ $`}
+                text={`$ $ $ Current exchange rate for 1 ${baseCurrency} $ $ $`}
                 effect="fadeOut"
                 effectChange={4.0}
               />
