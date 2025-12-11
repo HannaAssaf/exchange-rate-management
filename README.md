@@ -54,7 +54,7 @@ This project highlights practical modern front-end engineering skills expected i
 
 ## 🛠 Tech Stack
 
-- **Next.js 14 (App Router)**
+- **Next.js 15 (App Router)**
 - **React 18**
 - **TypeScript**
 - **TanStack Query (React Query)**
