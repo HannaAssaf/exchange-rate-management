@@ -12,11 +12,9 @@
 
 ---
 
-### 🔗 **Live App**  
-https://exchange-rate-management.vercel.app/
+### 🔗 **Live App**
 
-### 📊 **Rates Table**  
-https://exchange-rate-management.vercel.app/rates
+https://exchange-rate-management.vercel.app/
 
 </div>
 
@@ -26,11 +24,11 @@ https://exchange-rate-management.vercel.app/rates
 
 A production-style **Next.js App Router** project showcasing:
 
-- server-side fetching for fast initial load  
-- client-side caching and background refetching via **TanStack Query**  
-- real-time currency conversion  
-- clean API integration with **Axios + TypeScript**  
-- separation of server & client components following Next.js best practices  
+- server-side fetching for fast initial load
+- client-side caching and background refetching via **TanStack Query**
+- real-time currency conversion
+- clean API integration with **Axios + TypeScript**
+- separation of server & client components following Next.js best practices
 
 This project highlights practical modern front-end engineering skills expected in commercial React/Next roles.
 
