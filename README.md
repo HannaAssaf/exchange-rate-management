@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 💱 Exchange Rate Management — Next.js App
 
-First, run the development server:
+### _A modern Next.js (App Router) application demonstrating API integration, currency conversion, server-side data fetching, and client-side caching with React Query._
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img src="https://img.shields.io/badge/framework-Next.js-black" />
+<img src="https://img.shields.io/badge/tech-React_Query-FF6A3D" />
+<img src="https://img.shields.io/badge/tech-Axios-yellow" />
+<img src="https://img.shields.io/badge/lang-TypeScript-3178C6" />
+<img src="https://img.shields.io/badge/styling-CSS_Modules-blueviolet" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔗 **Live App**  
+https://exchange-rate-management.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📊 **Rates Table**  
+https://exchange-rate-management.vercel.app/rates
 
-## Learn More
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A production-style **Next.js App Router** project showcasing:
 
-## Deploy on Vercel
+- server-side fetching for fast initial load  
+- client-side caching and background refetching via **TanStack Query**  
+- real-time currency conversion  
+- clean API integration with **Axios + TypeScript**  
+- separation of server & client components following Next.js best practices  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project highlights practical modern front-end engineering skills expected in commercial React/Next roles.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🖼️ Preview
+
+<img src="public/readme/exchange-rate.png" width="850" />
+
+---
+
+## ✨ Key Features
+
+- ⚡ **Next.js App Router architecture**
+- 🧮 **Real-time currency conversion**
+- 🌍 **Full list of supported exchange rates**
+- 🔄 **React Query caching + stale-while-revalidate**
+- 🟡 **Loading and error UI states**
+- 📡 **Typed Axios API layer**
+- 🧩 **Modular, maintainable folder structure**
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **TypeScript**
+- **TanStack Query (React Query)**
+- **Axios**
+- **CSS Modules**
+- **ESLint + Prettier**
+- **Vercel Deployment**
+
+---
+
+<div align="center">
+🚀 Built to demonstrate real-world Next.js & API-driven application skills.
+</div>
